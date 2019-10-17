@@ -1,16 +1,22 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
+#include "CPoint.h"
 
-using namespace std;
+//sing namespace std;
 
 //Exemple de programme en C ++
 
-
+//POO C++
+//Class (données et méthodes)
 
 int main()
 {
-	int i = 0;
+	CPoint ptMonPoint;
+
+	std::cout << "X : " << ptMonPoint.getX() << std::endl;
+	std::cout << "Y : " << ptMonPoint.getY() << std::endl;
+	/*int i = 0;
 	float x = 0.0;
 	float racx = 0.0;
 
@@ -34,8 +40,11 @@ int main()
 		}
 	}
 
-	std::cout << "Travail Termine" << endl;
+	std::cout << "Travail Termine" << endl;*/
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	system("pause");
+
 	return 0;
 }
