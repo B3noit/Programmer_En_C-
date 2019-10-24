@@ -15,8 +15,16 @@ void CPoint::setY(int n_Y)
 {
 	this->n_Y = n_Y;
 }
-
 void CPoint::setX(int n_X)
 {
 	this->n_X = n_X;
 }
+
+
+void CPoint::Cpoint()
+{
+	this->n_X = 0;
+	this->n_Y = 0;
+}
+
+

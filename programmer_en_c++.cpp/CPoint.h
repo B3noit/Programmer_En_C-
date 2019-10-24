@@ -19,6 +19,9 @@ public://Accessible partout, dans et à l'extérieur de la classe
 	void setX(int n_X);
 	void setY(int n_Y);
 
+	//Constructeur
+	void Cpoint();
+
 
 
 };
